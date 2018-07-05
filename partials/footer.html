@@ -1,0 +1,99 @@
+<!--BEGIN PRE-FOOTER -->
+<div ng-controller="homeController">
+    <div class="pre-footer">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN BOTTOM ABOUT BLOCK -->
+                <div class="col-md-4 col-sm-6 pre-footer-col">
+                    <h2>Quick Links</h2>
+                    <ul class="list-unstyled quicklinks">
+                        <li><a href="#/home" my-active-link="/home"> Home</a></li>
+                        <li><a href="#/consulting" my-active-link="/consulting"> Consulting</a></li>
+                        <li><a href="#/courses" my-active-link="/courses"> Courses</a></li>
+                        <li><a href="#/aboutus" my-active-link="/aboutus"> About US</a></li>
+                    </ul>
+                    <br>
+                    <div class="quicklinks-askfor-demo"><a class="ask-demo-font" href="#/demo" my-active-link="/demo">
+               Request for Demo
+              </a></div>
+                </div>
+                <!-- END BOTTOM ABOUT BLOCK -->
+                <div class="col-md-4 col-sm-6 pre-footer-col">
+                    <h2>Our Contacts</h2>
+                    <address class="margin-bottom-20">
+                        You can contact us on +91-7013056533/ +91-9963552791, for any inquiry email at <a href="mailto:info@deepalgorithms.in">info@deepalgorithms.in</a>
+                        <p>
+                            <h2>ADDRESS</h2> 
+                            <div>DeepAlgorithms</div>
+                            <div> Unispace, Office No#11A, Melege Tower, 11th floor, Patrika Nagar, Madhapur, Hyderabad - 500081.</div>
+                            <div> Landmark: Near to Ratnadeep SuperMarket Madhapur.</div>
+                        </p>
+                    </address>
+                    <h2>Newsletter</h2>
+                    <p>Subscribe to our newsletter and stay up to date with the latest news!</p>
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" placeholder="youremail@mail.com" ng-model="subscribeemail" class="form-control" required>
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" class="btn btn-primary" ng-click="fnSubscribeUs();"><i class="icon-ok"></i> Subscribe</button>
+                  </span>
+                        </div>
+                    </form>
+                </div>
+                <!-- END NEWS LETTER BLOCK -->
+                <!-- BEGIN BOTTOM CONTACTS -->
+                <div class="col-md-4 col-sm-6 pre-footer-col">
+                    <h2>Contact Form</h2>
+                    <!-- BEGIN FORM-->
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="career-name">Name</label>
+                            <input type="text" class="form-control" id="contactname" name="contactname" ng-model="contactname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-name">Email</label>
+                            <input type="email" class="form-control" id="contactemail" name="contactemail" ng-model="contactemail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-name">Phone Number</label>
+                            <input type="text" class="form-control" id="contactnumber" name="contactnumber" ng-model="contactnumber" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-name">Message</label>
+                            <textarea class="form-control" rows="5" id="contactmessage" name="contactmessage" ng-model="contactmessage" required></textarea>
+                        </div>
+                        <button class="btn btn-primary" class="btn btn-primary" ng-click="fnContactUs();"><i class="icon-ok"></i> Send</button>
+                    </form>
+                    <!-- END FORM-->
+                </div>
+                <!-- END BOTTOM CONTACTS -->
+            </div>
+        </div>
+    </div>
+    <!-- END PRE-FOOTER -->
+    <!-- BEGIN FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN PAYMENTS -->
+                <div class="col-md-4 col-sm-4">
+                    <ul class="social-footer list-unstyled list-inline pull-right">
+                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-skype"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-github"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-dropbox"></i></a></li>
+                    </ul>
+                </div>
+                <!-- END PAYMENTS -->
+                <!-- BEGIN POWERED -->
+                <!-- END POWERED -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END FOOTER
